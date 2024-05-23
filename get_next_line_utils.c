@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 23:30:28 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/21 16:12:28 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/23 12:31:48 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 
-	if (!s)
+	if (!s || !*s)
 		return (0);
 	i = 0;
 	while (s[i] && s[i] != '\n')
