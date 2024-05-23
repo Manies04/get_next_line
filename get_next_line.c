@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 23:30:19 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/23 12:41:43 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/23 23:18:33 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,10 @@ char	*get_next_line(int fd)
 	}
 	return (str);
 }
+/* int main()
+{
+	int fd = open("", O_RDONLY);
+	char *str = get_next_line(fd);
+	printf("%s\n", str);
+	return (0);
+} */
