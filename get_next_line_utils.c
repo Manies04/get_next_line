@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 23:30:28 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/23 12:31:48 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/23 12:41:18 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ char	*ft_strjoin(char *str, char *buffer)
 	j = 0;
 	new_str = (char *)malloc(ft_strlen(str) + ft_strlen(buffer) + 1);
 	if (!new_str)
-		return (NULL);
+		return (0);
 	while (str && str[i])
 	{
 		new_str[i] = str[i];

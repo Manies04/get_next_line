@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 23:30:19 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/21 15:47:41 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/23 12:41:43 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ char	*get_next_line(int fd)
 	static char	buffer[BUFFER_SIZE + 1];
 	char		*str;
 
-	str = NULL;
+	str = 0;
 	if (fd < 0 || fd > FOPEN_MAX || BUFFER_SIZE < 1)
-		return (NULL);
+		return (0);
 	while (*buffer || read(fd, buffer, BUFFER_SIZE) > 0)
 	{
 		str = ft_strjoin(str, buffer);
