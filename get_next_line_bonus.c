@@ -6,11 +6,11 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 13:52:50 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/24 13:53:08 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/31 10:00:12 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*get_next_line(int fd)
 {

@@ -6,11 +6,11 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 13:52:13 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/24 13:52:15 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/31 10:00:36 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 /**@brief This function calculates the length of a string.
  *@param str: The string to calculate the length of.

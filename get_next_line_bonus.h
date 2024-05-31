@@ -6,12 +6,12 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 13:53:33 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/05/24 13:53:46 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/05/31 09:59:28 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include <unistd.h>
 # include <stdio.h>
