@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 13:52:50 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/06/03 14:20:38 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/06/05 10:12:09 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,10 @@ char	*get_next_line(int fd)
 	int fd2 = open("cenoura.txt", O_RDONLY);
 	char *str = get_next_line(fd);
 	char *str1 = get_next_line(fd2);
+	printf("%s\n", str);
+	printf("%s\n", str1);
+	str = get_next_line(fd);
+	str1 = get_next_line(fd2);
 	printf("%s\n", str);
 	printf("%s\n", str1);
 	return (0);
